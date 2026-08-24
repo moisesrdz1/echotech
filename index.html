@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoTech — soluções inteligentes para um futuro mais sustentável.">
+  <title>EcoTech | Tecnologia para um futuro sustentável</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio" aria-label="EcoTech início">
+        <span class="logo-mark">E</span>
+        <span>Eco<span>Tech</span></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Início</a>
+        <a href="#projeto">Projeto</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#sobre">Sobre</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">TECNOLOGIA + SUSTENTABILIDADE</p>
+          <h1>Um futuro mais limpo começa com <span>ideias inteligentes.</span></h1>
+          <p class="hero-text">
+            A EcoTech desenvolve soluções tecnológicas para transformar problemas ambientais
+            em oportunidades de inovação.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projeto">Conheça o projeto</a>
+            <a class="btn btn-secondary" href="#sobre">Nossa missão</a>
+          </div>
+        </div>
+
+        <div class="smart-bin" aria-label="Ilustração de uma lixeira inteligente">
+          <div class="status">● SISTEMA ONLINE</div>
+          <div class="bin">
+            <div class="bin-lid"></div>
+            <div class="sensor"></div>
+            <div class="bin-body">
+              <div class="bin-logo">E</div>
+              <div class="fill-bar"><span id="fillBar"></span></div>
+              <p><strong id="fillValue">68%</strong> ocupada</p>
+            </div>
+          </div>
+          <div class="signal signal-1"></div>
+          <div class="signal signal-2"></div>
+          <div class="signal signal-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projeto">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">NOSSO PROJETO</p>
+          <h2>Lixeiras inteligentes</h2>
+          <p>Uma solução simples, útil e escalável para melhorar a gestão de resíduos.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="card-icon">♻</div>
+            <h3>Monitoramento em tempo real</h3>
+            <p>
+              Sensores identificam o nível de resíduos e permitem saber quando a lixeira
+              precisa ser esvaziada.
+            </p>
+            <button class="text-btn" id="detailsBtn">Ver como funciona →</button>
+          </article>
+
+          <article class="project-card">
+            <div class="card-icon">⌁</div>
+            <h3>Alertas inteligentes</h3>
+            <p>
+              Quando o nível de ocupação atinge um limite, o sistema pode enviar um alerta
+              para a equipe responsável.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="card-icon">◎</div>
+            <h3>Onde pode ser usada?</h3>
+            <p>
+              Escolas, empresas, praças, condomínios e outros espaços que precisam de uma
+              coleta mais eficiente.
+            </p>
+          </article>
+        </div>
+
+        <div class="details" id="details">
+          <div>
+            <p class="eyebrow">COMO FUNCIONA</p>
+            <h3>Da coleta de dados à ação</h3>
+          </div>
+          <ol>
+            <li><strong>Sensor:</strong> mede o nível de resíduos.</li>
+            <li><strong>Processamento:</strong> o sistema interpreta os dados.</li>
+            <li><strong>Alerta:</strong> a equipe recebe a informação quando necessário.</li>
+            <li><strong>Coleta:</strong> o esvaziamento acontece no momento adequado.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section" id="impacto">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="eyebrow">IMPACTO</p>
+          <h2>Tecnologia que ajuda a cuidar do ambiente.</h2>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-item">
+            <strong>01</strong>
+            <h3>Menos desperdício</h3>
+            <p>Coletas podem ser planejadas de acordo com a necessidade real.</p>
+          </div>
+          <div class="impact-item">
+            <strong>02</strong>
+            <h3>Mais eficiência</h3>
+            <p>Equipes conseguem priorizar os locais que realmente precisam de atenção.</p>
+          </div>
+          <div class="impact-item">
+            <strong>03</strong>
+            <h3>Cidades melhores</h3>
+            <p>Ambientes mais organizados contribuem para uma experiência urbana melhor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">SOBRE A ECOTECH</p>
+          <h2>Inovação com propósito.</h2>
+        </div>
+        <p>
+          A EcoTech é uma empresa fictícia criada para representar uma nova geração de
+          negócios: empresas que utilizam tecnologia para gerar benefícios ambientais e
+          sociais. Nosso objetivo é desenvolver ideias acessíveis, eficientes e pensadas
+          para o mundo real.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 EcoTech email:echotechcorp@eth.com</p>
+      <p>Tecnologia para um futuro sustentável.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
